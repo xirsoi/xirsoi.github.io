@@ -1,0 +1,17 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+table, th, tr, td {
+    border-collapse: collapse;
+    border: 1px solid white;
+}
+
+th {
+    color: $conifer;
+}
+
+header h2 {
+    color: $grey;
+}

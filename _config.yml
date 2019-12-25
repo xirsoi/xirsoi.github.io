@@ -1,1 +1,55 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Shining Source
+email: chevalierAdam2@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  My musings on many subjects, but mostly software and the art of making it.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://xirsoi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: xirsoi
+github_username:  xirsoi
+repository: xirsoi/xirsoi.github.io
+author: Adam Chevalier
+
+# Build settings
+markdown: kramdown
 theme: jekyll-theme-hacker
+show_downloads: false
+show_excerpts: true
+plugins:
+  - jekyll-feed
+  - jekyll-archives
+
+jekyll-archives:
+  enabled: 
+    - tags
+    - categories
+  layout: archive
+  permalinks:
+    tag: 'archives/tag/:name/'
+    category: 'archives/category/:name/'
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
