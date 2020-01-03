@@ -33,14 +33,14 @@ Consider Test Case 456:
 
 and Test Case 654:
 
-2. open book "Test Book 654" for editing
-3. verify that each of the following can be changed individually:
-  1. Title
-  2. Author
-  3. Summary
-  4. ...
-4. verify that the Title, Author, and Summary can be changed simultaneously
-5. reset the book's Title to "Test Book 654"
+1. open book "Test Book 654" for editing
+2. verify that each of the following can be changed individually:
+   1. Title
+   2. Author
+   3. Summary
+   4. ...
+3. verify that the Title, Author, and Summary can be changed simultaneously
+4. reset the book's Title to "Test Book 654"
 
 Test Case 456 is missing key details (eg., "what's the 'test book'?") and can easily be passed incorrectly if one of the fields is missed by the tester and that one happens to fail. Case 456 also neglects to reset the system so that the next person to run the test can find the 'test book' reliably.
 
@@ -84,11 +84,11 @@ The first step includes two instructions and one assertion. Note that we aren't 
 
 The second step screws it all up and makes the step harder to follow. Step 2 is clearly two independent steps and there's no reason to squish them into one. This is obviously a trivial example, but I've seen dozens, perhaps hundreds, of test cases with similar and even more heinous things.
 
-I'd like to point out that the second step also means this test case covers happy path and sad path scenarios. Whether that's okay is up to you, but I tend to separate use cases into their own test.
+I'd like to point out that the second step also means this test case covers happy path and sad path scenarios. Whether that's okay is up to you and your team, but I tend to separate use cases into their own test for clarity.
 
 ## Format For Reading
 
 All tests should be read far more frequently than they're written. Giving a test a once-over to ensure that each step is formatted correctly can easily save the test runner 30 seconds per run by being more clear and by being formatted in the expected way - a 10-minute formatting pass can easily pay for itself in 20 runs of the test (and likely far fewer when the test is referenced by a developer in trying to replicate a bug so they can resolve it).
 
-Use Shift + Enter in test steps to keep lines together for paragraphs. This removes the extra blank line. (ed: this is tool-specific, but a specific tool isn't mentioned; maybe sketch out a starting point for a style guide?)
+In most test case management tools using Shift + Enter in test steps keeps lines together for paragraphs. This removes the extra blank line.
 Use the code block formatting option when using bits of code or JSON to clearly mark them apart. The monospace font helps when reading it as well.
