@@ -6,17 +6,13 @@ permalink: /about/
 
 ## Who
 
-My name is Adam Chevalier and I do software development, primarily in test. What does that mean? In short, I write software that tests software. In shorter, Automated testing. I've been doing it since March 2012, mostly working with C# and Selenium with forays into Node, JavaScript, Python, Docker, etc.
+My name is Adam Chevalier and I do software development, primarily in test. What does that mean? In short, I write software that tests software. I've been doing it since 2012, mostly working with C# and Selenium with forays into Node, JavaScript, Python, Docker, etc. In that time I've learned some things that other people might find helpful. At least they're things I wish I'd known sooner.
 
-In that time I've learned some things that other people might find helpful. At least they're things I wish I'd known sooner.
+I'm from Wisconsin but live in Minnesota (that's in the Midwest of the United States for those of you not in the know). My two biggest hobbies are Tabletop RPGs (Pathfinder mostly) and game modding, the biggest of which is [Ancient Religions Reborn](https://forum.paradoxplaza.com/forum/index.php?threads/ancient-religions-reborn.829413/) (on [github](https://github.com/xirsoi/ancientreligions)).
 
 ## What
 
 I'll mostly be posting about testing software, both in general and from an automation perspective. I'll also sometimes talk about general software development, tech, and my hobbies.
-
-### Hobbies
-
-My two biggest hobbies are Tabletop RPGs (Pathfinder mostly) and my Crusader Kings 2 mod, [Ancient Religions Reborn](https://forum.paradoxplaza.com/forum/index.php?threads/ancient-religions-reborn.829413/) (on [github](https://github.com/xirsoi/ancientreligions)).
 
 ### Open Source
 

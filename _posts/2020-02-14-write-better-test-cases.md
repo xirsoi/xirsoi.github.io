@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Write Better Test Cases"
-date: 2021-01-01 08:00:00-0600
+date: 2021-02-14 08:00:00-0600
 categories: software testing
 tags: manual-testing
 excerpt: Learn some general advice for writing good manual test cases, examples included!
 ---
 
-Writing test cases can be hard, but it can also be easy! *If* you know the right stuff. During this article we'll imagine we are writing test cases for a hypothetical catalog management system for a library.
+Writing test cases can be hard, but it can be easier *if* you know the right stuff. During this article we'll imagine we are writing test cases for a hypothetical catalog management system for a library.
 
 ## Keep Tests Small, Focused, and Clear
 
