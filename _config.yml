@@ -23,6 +23,7 @@ twitter_username: xirsoi
 github_username:  xirsoi
 repository: xirsoi/xirsoi.github.io
 author: Adam Chevalier
+future: false # because for some reason github-pages defaults this to true
 
 # Build settings
 markdown: kramdown
