@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Write Better Test Cases"
-date: 2021-02-14 08:00:00-0600
+date: 2020-03-21 08:00:00-0600
 categories: software testing
 tags: manual-testing
 excerpt: Learn some general advice for writing good manual test cases, examples included!
@@ -92,3 +92,9 @@ All tests should be read far more frequently than they're written. Giving a test
 
 In most test case management tools using Shift + Enter in test steps keeps lines together for paragraphs. This removes the extra blank line.
 Use the code block formatting option when using bits of code or JSON to clearly mark them apart. The monospace font helps when reading it as well.
+
+## Wrapping Up
+
+So, it really all comes down to the point I made in the first example; the tests are for people, if you remember that all the other points flow naturally.
+
+I hope you find these tips helpful in improving your test cases, and stay safe out there.

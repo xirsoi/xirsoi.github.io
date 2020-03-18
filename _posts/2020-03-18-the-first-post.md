@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The First Post"
-date: 2021-02-04 08:00:00-0600
+date: 2020-03-18 08:00:00-0600
 categories: blogging
 excerpt: I introduce myself and this blog.
 ---
@@ -13,4 +13,4 @@ Also it might boost the signal of projects or people I think deserve one. Beside
 
 No pressure.
 
-So, check out the [about](/about) page to learn a little more about me and what I'm doing here, or checkout the [archive](/archives) for older posts. The most recent 5 posts will always be on the first page.
+So, check out the [about](/about) page to learn a little more about me and what I'm doing here, or checkout the [archive](/archives) for older posts. The most recent 5 posts will always be on the first page. My first real post should go live in a couple days, so come back soon!
