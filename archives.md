@@ -19,7 +19,7 @@ permalink: /archives/
 
 {%- endif -%}
 
-{% if site.tags.size > 0 %}
+{% if site.categories.size > 0 %}
 
 ## Categories
 
