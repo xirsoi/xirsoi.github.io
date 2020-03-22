@@ -20,7 +20,7 @@ One of the projects I've involved myself in is [Tuxemon](http://www.tuxemon.org)
 
 I initially set out to simply create the "learn" function, so we could implement "TM" and "HM" items, which could give a monster a new technique. But then I thought "it wouldn't make sense for a fire monster to learn Ice Beam, I better just add conditional use too", and before you know it I was knee deep in a total subsystem refactor. Effects and Conditions would be represented by full classes, subclassed by specific implementations (LearnEffect, TypeCondition, etc.). This mimics the Event subsystem, so I had something to compare my work to.
 
-After weeks of planning, debate, programming, and refactoring I was nearly finished. I was getting a single persistent bug though, my Item.user was always null (None in Python). I debugged it at the top and bottom (when the item was created and when the user was being referenced), which revealed that somewher in the stack Item.user was being lost. So I discovered every place an Item could be created and refactored them down and made sure all of them set the User correctly.
+After weeks of planning, debate, programming, and refactoring, I was nearly finished. I was getting a single persistent bug though: my Item.user was always None (Python's "null"). I debugged it at the top and bottom (when the item was created and when the user was being referenced), which revealed that, somewhere in the stack, Item.user was being lost. So I discovered every place an Item could be created and refactored them down and made sure all of them set the User correctly.
 
 Still the error persisted.
 
