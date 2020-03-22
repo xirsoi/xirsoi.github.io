@@ -10,7 +10,7 @@ It's really easy to be hard on yourself when you make a mistake, even easier whe
 
 > Omg, I've been doing this for X years and I just spent hours trying to chase down this stupid bug caused by a misplaced paren! I'm a failure!
 
-But here's a not-so-secret secret. We all do this. I've been doing this for 8 years and I just did it last week. [Scott Hanselman](https://www.hanselman.com/blog/ImAPhonyAreYou.aspx) has been in the industry for over 20 years and *he's* done it. You are not a failure!
+But here's a not-so-secret secret: we all do this. I've been doing this for 8 years and I just did it last week. [Scott Hanselman](https://www.hanselman.com/blog/ImAPhonyAreYou.aspx) has been in the industry for over 20 years and *he's* done it. You are not a failure!
 
 To prove it I'll tell you about two of the times I've done this, both in the last month or so.
 
