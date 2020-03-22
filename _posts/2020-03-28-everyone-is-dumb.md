@@ -47,7 +47,7 @@ Here my debug lines told me everything was hunky dory, user and game existed and
 
 Some expletives may have been uttered.
 
-I had left his behind from an earlier idea where the Item's user would be optional. I was so fixated I didn't even bother to look for any other references to the user member until I'd been at it for over 2 hours. I'm not an idiot and I'm not new to this. I _felt_ like an incompetent idiot right then, but 98% of the time I don't make mistakes like this, and I'm willing to be you're the same.
+I had left his behind from an earlier idea where the Item's user would be optional. I was so fixated I didn't even bother to look for any other references to the user member until I'd been at it for over 2 hours. I'm not an idiot and I'm not new to this. I _felt_ like an incompetent idiot right then, but 98% of the time I don't make mistakes like this, and I'm willing to bet you're the same.
 
 ## Days of Present Future
 
