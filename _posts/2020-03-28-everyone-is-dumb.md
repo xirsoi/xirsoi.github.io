@@ -57,7 +57,7 @@ I knew there were some issues with the Hacker theme, so I looked into it. Turned
 
 Next I went for old faithful, a simple google search. This turned up just a basic list of potential issues, which I was certain couldn't possibly be my problem. But I checked anyway. Lo and behold, my posts were dated for 20**21**-03-18.
 
-![statue facepalming]({{site.url}\assets\images\facepalm.jpg "Facepalm")
+![statue facepalming]({{site.url}}\assets\images\facepalm.jpg  "Caïn by Henri Vidal, Tuileries Garden, Paris, 1896")
 
 All I had to do was fix those dates to the correct values and everything was fine. Well, I also had to include 'future: false' in the config because github-pages defaults to showing all posts regardless of date. For... reasons?
 
